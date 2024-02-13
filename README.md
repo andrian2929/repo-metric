@@ -9,8 +9,7 @@ This script summarizes information about a list of GitHub repositories and saves
 
 ## Usage
 
-1. Prepare the GitHub repo link to summarize in a txt file. Multiple line accepted
-   For example:
+1. Prepare the GitHub repo link to summarize in a txt file. Multiple line accepted. For example:
    ```
     https://github.com/material-components/material-web
     https://github.com/tmux/tmux
@@ -20,8 +19,7 @@ This script summarizes information about a list of GitHub repositories and saves
      chmod +x
      repo-sum.sh /path/to/txt-file
    ```
-3. This script will generate a json file as output
-   Example:
+3. This script will generate a json file as output. For example:
    ```json
    [
      {
