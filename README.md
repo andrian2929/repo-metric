@@ -1,6 +1,6 @@
 ## Introduction
 
-This script summarizes information about a list of GitHub repositories and saves insertion and deletion per contributor the data in a JSON file.
+This script summarizes information about a list of GitHub repositories and saves insertion and deletion per contributor in a JSON file.
 
 ## Requirement
 
@@ -16,7 +16,7 @@ This script summarizes information about a list of GitHub repositories and saves
    ```
 2. Run this command to start the script
    ```bash
-     sudo chmod +x
+     sudo chmod +x repo-sum.sh
      repo-sum.sh /path/to/txt-file
    ```
 3. This script will generate a json file as output. For example:
