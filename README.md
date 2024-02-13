@@ -11,9 +11,10 @@ This script summarizes information about a list of GitHub repositories and saves
 
 1. Prepare the GitHub repo link to summarize in a txt file. Multiple line accepted
    For example:
-   `    https://github.com/material-components/material-web
+   ```
+    https://github.com/material-components/material-web
     https://github.com/tmux/tmux
-   `
+   ```
 2. Run this command to start the script
    ```bash
      chmod +x
